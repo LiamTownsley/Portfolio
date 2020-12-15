@@ -28,17 +28,43 @@ body p {
   width: 17px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: #101216;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #1d1f24;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+#subheader {
+  text-align: center;
+}
+
+#work-content {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  padding: 5px;
+}
+
+#work-content-children {
+  background-color: #1c252d;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  margin: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+#card-url {
+  color: white;
 }

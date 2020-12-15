@@ -4,9 +4,9 @@ function NavBar() {
   return (
     <nav>
       <ul>
-            <li><a href="https://google.com/">Work</a></li>
-            <li><a href="https://google.com/">Contact Me</a></li>
-            <li><a href="https://google.com/">Sign In
+            <li><button>Work</button></li>
+            <li><button>Contact Me</button></li>
+            <li><button>Sign In
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 427.164 512.004">
                         <g id="user" transform="translate(0 0)">
                         <path id="Path_9" data-name="Path 9" d="M210.352,246.633c33.883,0,63.223-12.152,87.2-36.129s36.125-53.3,36.125-87.191S321.52,60.1,297.543,36.121,244.231,0,210.352,0s-63.219,12.152-87.191,36.125S87.032,89.434,87.032,123.313s12.156,63.223,36.133,87.2,53.313,36.125,87.188,36.125Zm0,0"/>
@@ -14,7 +14,7 @@ function NavBar() {
                     </g>
                 </svg>
 
-            </a></li>
+            </button></li>
       </ul>
     </nav>
   );
